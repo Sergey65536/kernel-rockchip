@@ -1,0 +1,52 @@
+#include "base/base.config"
+#include "chips/rk3588_aarch64.config"
+#include "font/chinese.config"
+#include "fs/exfat.config"
+#include "fs/ntfs.config"
+#include "fs/vfat.config"
+#include "gpu/gpu.config"
+#include "multimedia/audio.config"
+#include "multimedia/camera.config"
+#include "multimedia/gst/audio.config"
+#include "multimedia/gst/camera.config"
+#include "multimedia/gst/rtsp.config"
+#include "multimedia/gst/video.config"
+#include "multimedia/mpp.config"
+#include "wifibt/bt.config"
+#include "wifibt/wireless.config"
+#include "tools/benchmark.config"
+#include "tools/common.config"
+#include "tools/test.config"
+#include "chromium.config"
+#include "npu2.config"
+#include "powermanager.config"
+#include "weston.config"
+#include "qt/qt5.config"
+
+BR2_PACKAGE_RKWIFIBT_AP6275P=y
+BR2_PACKAGE_RKWIFIBT_BTUART="ttyS8"
+
+# Firefly
+BR2_TARGET_GENERIC_ROOT_PASSWD="firefly"
+BR2_PACKAGE_RKWIFIBT_BTUART="ttyS6"
+BR2_ROOTFS_OVERLAY+="board/firefly/roc-rk3588s-pc board/firefly/itx-3588j board/firefly/aio-3588sjd4"
+BR2_PACKAGE_WPA_SUPPLICANT_WPS=y
+BR2_PACKAGE_WPA_SUPPLICANT_WPA3=y
+BR2_PACKAGE_HOSTAPD_WPS=y
+BR2_PACKAGE_HOSTAPD_WPA3=y
+BR2_PACKAGE_ROCKIT=y
+BR2_PACKAGE_ROCKIT_MPI=y
+BR2_PACKAGE_RSYNC=y
+BR2_PACKAGE_UTIL_LINUX_BINARIES=y
+
+# can
+BR2_PACKAGE_CAN_UTILS=y
+BR2_PACKAGE_IPROUTE2=y
+BR2_PACKAGE_LIBSOCKETCAN=y
+
+
+BR2_PACKAGE_LIBCURL=y
+BR2_PACKAGE_BZIP2=y
+BR2_PACKAGE_RECOVERY=y
+BR2_PACKAGE_NO_RECOVERY_SCRIPTS=y
+BR2_PACKAGE_RECOVERY_UPDATEENGINEBIN=y
