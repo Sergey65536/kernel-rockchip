@@ -1,0 +1,109 @@
+[
+    {
+        "RK_PRODUCT_MODEL": "common",
+        "CPU": "RK3588"
+    },
+    {
+	"RK_PRODUCT_MODEL": "ITX_3588J",
+        "BOARD_NAME":"ITX-3588J",
+        "CPU": "RK3588",
+        "BOARD_WIKI": {
+	    "ZH": "https://wiki.t-firefly.com/zh_CN/Core-3588J/index.html",
+        "EN": "https://wiki.t-firefly.com/en/Core-3588J/index.html"
+        }
+
+    },
+    {
+	"RK_PRODUCT_MODEL": "AIO_3588L",
+        "BOARD_NAME":"AIO-3588L",
+        "CPU": "RK3588",
+        "BOARD_WIKI": {
+	    "ZH": "https://wiki.t-firefly.com/zh_CN/Core-3588L/index.html",
+        "EN": "https://wiki.t-firefly.com/en/Core-3588L/index.html"
+        }
+
+    },
+    {
+	"RK_PRODUCT_MODEL": "AIO_3588SG",
+        "BOARD_NAME":"AIO-3588SG",
+        "CPU": "RK3588",
+        "BOARD_WIKI": {
+	    "ZH": "https://wiki.t-firefly.com/zh_CN/Core-3588SG/index.html",
+        "EN": "https://wiki.t-firefly.com/en/Core-3588SG/index.html"
+        }
+
+    },
+    {
+	"RK_PRODUCT_MODEL": "ROC_RK3588_RT",
+        "BOARD_NAME":"ROC-RK3588-RT",
+        "CPU": "RK3588",
+        "BOARD_WIKI": {
+            "ZH": "https://wiki.t-firefly.com/zh_CN/ROC-RK3588-RT/index.html",
+            "EN": "https://wiki.t-firefly.com/en/ROC-RK3588-RT/index.html"
+        }
+    },
+    {
+	"RK_PRODUCT_MODEL": "ROC_RK3588S_PC",
+        "BOARD_NAME":"ROC-RK3588S-PC",
+        "CPU": "RK3588",
+        "BOARD_WIKI": {
+            "ZH": "https://wiki.t-firefly.com/zh_CN/ROC-RK3588S-PC/index.html",
+            "EN": "https://wiki.t-firefly.com/en/ROC-RK3588S-PC/index.html"
+        }
+    },
+    {
+	"RK_PRODUCT_MODEL": "ROC_RK3588S_PC_EXT",
+        "BOARD_NAME":"ROC-RK3588S-PC-EXT",
+        "CPU": "RK3588",
+        "BOARD_WIKI": {
+            "ZH": "https://wiki.t-firefly.com/zh_CN/ROC-RK3588S-PC/index.html",
+            "EN": "https://wiki.t-firefly.com/en/ROC-RK3588S-PC/index.html"
+        }
+    },
+    {
+	"RK_PRODUCT_MODEL": "ROC_RK3588_PC",
+        "BOARD_NAME":"ROC-RK3588-PC",
+        "CPU": "RK3588",
+        "BOARD_WIKI": {
+            "ZH": "https://wiki.t-firefly.com/zh_CN/ROC-RK3588-PC/index.html",
+            "EN": "https://wiki.t-firefly.com/en/ROC-RK3588-PC/index.html"
+        }
+    },
+
+    {
+	"RK_PRODUCT_MODEL": "AIO_3588SJD4",
+        "BOARD_NAME":"AIO-3588SJD4",
+        "CPU": "RK3588",
+        "BOARD_WIKI": {
+            "ZH": "https://wiki.t-firefly.com/zh_CN/Core-3588SJD4/index.html",
+            "EN": "https://wiki.t-firefly.com/en/Core-3588SJD4/index.html"
+        }
+    },
+    {
+	"RK_PRODUCT_MODEL": "AIO_3588Q",
+        "BOARD_NAME":"AIO-3588Q",
+        "CPU": "RK3588",
+        "BOARD_WIKI": {
+            "ZH": "https://wiki.t-firefly.com/zh_CN/iCore-3588Q/index.html",
+            "EN": "https://wiki.t-firefly.com/en/iCore-3588Q/index.html"
+        }
+    },
+    {
+	"RK_PRODUCT_MODEL": "AIO_3588MQ",
+        "BOARD_NAME":"AIO-3588MQ",
+        "CPU": "RK3588",
+        "BOARD_WIKI": {
+            "ZH": "https://wiki.t-firefly.com/zh_CN/iCore-3588MQ/index.html",
+            "EN": "https://wiki.t-firefly.com/en/iCore-3588MQ/index.html"
+        }
+    },
+    {
+	"RK_PRODUCT_MODEL": "AIO_3588JQ",
+        "BOARD_NAME":"AIO-3588JQ",
+        "CPU": "RK3588",
+        "BOARD_WIKI": {
+            "ZH": "https://wiki.t-firefly.com/zh_CN/iCore-3588JQ/index.html",
+            "EN": "https://wiki.t-firefly.com/en/iCore-3588JQ/index.html"
+        }
+    }
+]
